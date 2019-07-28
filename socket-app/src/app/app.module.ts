@@ -5,6 +5,9 @@ import { AppComponent } from './app.component';
 import { DocumentListComponent } from './document-list/document-list.component';
 import { DocumentComponent } from './document/document.component';
 
+// Other imports
+import { FormsModule } from '@angular/forms';
+
 // Socket.io imports
 import { SocketIoModule, SocketIoConfig } from 'ngx-socket-io';
 const config: SocketIoConfig = { url: 'http://localhost:1234', options: {} };
